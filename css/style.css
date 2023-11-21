@@ -42,6 +42,14 @@
     margin-bottom: 5px;
 }
 
+#section-4 > .row > .col-6 > *{
+        background-color: green;
+        border: 2px solid red;
+        padding: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
 
 
