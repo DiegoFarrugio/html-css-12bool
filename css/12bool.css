@@ -14,14 +14,15 @@
     flex-direction: row;
     flex-wrap: wrap;
     width: 100%;
-    background-color: #006CFA;
 }
 
 
 /*RESET COLUMNS*/
 
 [class*="col-"] {
-    flex: 0 0 auto;  /* flex: GROW SHRINK BASIS;  */
+    flex: 0 0 auto;
+    background-color: #006CFA;
+    /* flex: GROW SHRINK BASIS;  */
 }
 
 
@@ -31,6 +32,7 @@
     flex-grow: 1;
     max-width: 100%;
     flex-basis: 0;
+    background-color: #006CFA;
 }
 
 .col-1{
