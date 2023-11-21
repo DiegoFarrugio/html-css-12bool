@@ -16,6 +16,10 @@
     padding: 20px;
 }
 
+.col-offset-0{
+    background-color: white;
+}
+
 #section-1 > .row > .col-6 > *{
     background-color: green;
     border: 2px solid red;
@@ -28,4 +32,16 @@
 #section-1{
     margin-bottom: 30px;
 }
+
+#section-3, #section-4 h2{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#section-3 > .row {
+    margin-bottom: 5px;
+}
+
+
+
 
