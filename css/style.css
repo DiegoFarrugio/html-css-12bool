@@ -89,3 +89,21 @@ h2{
     display: flex;
     justify-content: space-between;
 }
+
+#section-5 > .row > .height{
+    height: 100%;
+}
+
+.col-6-little-top{
+  height: 20px;
+}
+
+.col-6-little-middle{
+    height: 20px;
+    margin-top: 10px;
+}
+
+.col-6-little-bottom{
+    height: 20px;
+    margin-top: 20px;
+}
