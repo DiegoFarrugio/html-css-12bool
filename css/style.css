@@ -1,0 +1,26 @@
+/*GENERAL*/
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.row > *{
+    border: 1px solid white;
+    border-bottom: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+#section-1 > .row > .col-6 > *{
+    background-color: green;
+    border: 2px solid red;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
