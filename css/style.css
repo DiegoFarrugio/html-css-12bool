@@ -68,3 +68,24 @@ h2{
 }
 
 
+#section-6 > .row > .col-12 > * {
+    background-color: green;
+    border: 2px solid red;
+    padding: 20px;
+}
+
+#section-6 .col-12-space-around{
+    display: flex;
+    justify-content: space-around;
+}
+
+#section-7 > .row > .col-12 > * {
+    background-color: green;
+    border: 2px solid red;
+    padding: 20px;
+}
+
+.col-12-space-between{
+    display: flex;
+    justify-content: space-between;
+}
